@@ -1266,13 +1266,11 @@ country_event = { #German apology for Avricourt incident
 				threat > 0.7
 			}
 		}
-		add_political_power = -20
-		effect_tooltip = {
-			add_named_threat = {
-				threat = -2
-				name = AL_avricourt_apology
-			}
-		}
+               add_political_power = -20
+               add_named_threat = {
+                       threat = -2
+                       name = AL_avricourt_apology
+               }
 	}
 	option = { #not good
 		log = "[GetLogInfo]: event prewar.43 option prewar.43.b"
@@ -1332,9 +1330,9 @@ country_event = { #French apology for Elfringen incident
 
 	is_triggered_only = yes
 
-       option = { #good
-               log = "[GetLogInfo]: event prewar.45 option prewar.45.a"
-               name = prewar.45.a
+	option = { #good
+		log = "[GetLogInfo]: event prewar.45 option prewar.43.a"
+		name = prewar.43.a
 		ai_chance = {
 			base = 10
 			modifier = {
@@ -1343,17 +1341,15 @@ country_event = { #French apology for Elfringen incident
 				threat > 0.7
 			}
 		}
-		add_political_power = -20
-		effect_tooltip = {
-			add_named_threat = {
-				threat = -2
-				name = AL_elfringen_apology
-			}
-		}
+               add_political_power = -20
+               add_named_threat = {
+                       threat = -2
+                       name = AL_elfringen_apology
+               }
 	}
-       option = { #not good
-               log = "[GetLogInfo]: event prewar.45 option prewar.45.b"
-               name = prewar.45.b
+	option = { #not good
+		log = "[GetLogInfo]: event prewar.45 option prewar.43.b"
+		name = prewar.43.b
 		ai_chance = {
 			base = 10
 			modifier = {
@@ -1458,13 +1454,11 @@ country_event = { #Commune of France offers cease-fire
 		log = "[GetLogInfo]: event prewar.48 option prewar.48.a"
 		name = prewar.48.a
 		add_political_power = 20
-		effect_tooltip = {
-			add_named_threat = {
-				threat = 2
-				name = AL_uneasy_ceasefire
-			}
-		}
-	}
+               add_named_threat = {
+                       threat = 2
+                       name = AL_uneasy_ceasefire
+               }
+       }
 }
 
 country_event = { #Germany demands compensation
@@ -1475,9 +1469,9 @@ country_event = { #Germany demands compensation
 
 	is_triggered_only = yes
 
-       option = { #ok
-               log = "[GetLogInfo]: event prewar.49 option prewar.49.a"
-               name = prewar.49.a
+	option = { #ok
+		log = "[GetLogInfo]: event prewar.49 option prewar.47.a"
+		name = prewar.47.a
 		ai_chance = {
 			base = 10
 			modifier = {
@@ -1502,9 +1496,9 @@ country_event = { #Germany demands compensation
 			country_event = { id = prewar.53 days = 1 }
 		}
 	}
-       option = { #no
-               log = "[GetLogInfo]: event prewar.49 option prewar.49.b"
-               name = prewar.49.b
+	option = { #no
+		log = "[GetLogInfo]: event prewar.49 option prewar.47.b"
+		name = prewar.47.b
 		ai_chance = {
 			base = 10
 			modifier = {
@@ -1531,13 +1525,11 @@ country_event = { #German Empire offers cease-fire
 		log = "[GetLogInfo]: event prewar.50 option prewar.48.a"
 		name = prewar.48.a
 		add_political_power = 20
-		effect_tooltip = {
-			add_named_threat = {
-				threat = 2
-				name = AL_uneasy_ceasefire
-			}
-		}
-	}
+               add_named_threat = {
+                       threat = 2
+                       name = AL_uneasy_ceasefire
+               }
+       }
 }
 
 country_event = { #German compensation for Avricourt incident
@@ -1559,13 +1551,11 @@ country_event = { #German compensation for Avricourt incident
 				amount = 1500
 			}
 		}
-		effect_tooltip = {
-			add_named_threat = {
-				threat = -3
-				name = AL_elfringen_compensation_sent
-			}
-		}
-	}
+               add_named_threat = {
+                       threat = -3
+                       name = AL_elfringen_compensation_sent
+               }
+       }
 }
 
 country_event = { #German Empire refused to compensate us!
@@ -1595,13 +1585,11 @@ country_event = { #German Empire refused to compensate us!
 		}
 		add_political_power = 50
 		add_war_support = 0.1
-		effect_tooltip = {
-			add_named_threat = {
-				threat = 5
-				name = AL_rally_for_war
-			}
-		}
-	}
+               add_named_threat = {
+                       threat = 5
+                       name = AL_rally_for_war
+               }
+       }
 }
 
 country_event = { #French compensation for Elfringen incident
@@ -1612,9 +1600,9 @@ country_event = { #French compensation for Elfringen incident
 
 	is_triggered_only = yes
 
-       option = {
-               log = "[GetLogInfo]: event prewar.53 option prewar.53.a"
-               name = prewar.53.a
+	option = {
+		log = "[GetLogInfo]: event prewar.53 option prewar.51.a"
+		name = prewar.51.a
 		add_political_power = 40
 		FRA = {
 			send_equipment = {
@@ -1623,13 +1611,11 @@ country_event = { #French compensation for Elfringen incident
 				amount = 1500
 			}
 		}
-		effect_tooltip = {
-			add_named_threat = {
-				threat = -3
-				name = AL_elfringen_compensation_sent
-			}
-		}
-	}
+               add_named_threat = {
+                       threat = -3
+                       name = AL_elfringen_compensation_sent
+               }
+       }
 }
 
 country_event = { #Commune of France refused to compensate us!
@@ -2018,17 +2004,15 @@ country_event = { #Agreement reached
 				}
 			}
 		}
-		else = {
-			effect_tooltip = {
-				GER = {
-					add_named_threat = {
-						threat = -14
-						name = copenhagen_treaty
-					}
-				}
-			}
-		}
-	}
+               else = {
+                       GER = {
+                               add_named_threat = {
+                                       threat = -14
+                                       name = copenhagen_treaty
+                               }
+                       }
+               }
+       }
 }
 
 news_event = { #Shelling of Avricourt
@@ -2109,7 +2093,7 @@ news_event = { #Shelling of Elfringen
 	}
 
 	option = {
-		name = prewar.101.c
+		name = prewar.100.c
 		trigger = {
 			NOT = { is_ally_with = INT }
 			NOT = { is_ally_with = GER }
