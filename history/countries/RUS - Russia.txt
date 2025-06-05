@@ -674,10 +674,6 @@ RUS_gordey_levchenko = {
 	set_character_flag = RUS_socialist
 	set_nationality = XXA
 }
-RUS_georgy_zhukov = {
-	set_character_flag = RUS_socialist
-	set_nationality = XXA
-}
 
 # RUS_neutral for neutral Latvian USSR generals
 RUS_aleksandr_vasilevsky = { set_character_flag = RUS_neutral }
