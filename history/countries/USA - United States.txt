@@ -89,7 +89,7 @@ give_guarantee = GUA
 give_guarantee = ELS
 give_guarantee = HON
 give_guarantee = COS
-give_guarantee = "PAN"
+give_guarantee = PAN
 give_guarantee = DOM
 give_guarantee = HAI
 add_to_array = { GUA.guarantor_array = USA }
