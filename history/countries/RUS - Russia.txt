@@ -125,7 +125,6 @@ if = {
 		basic_depth_charges = 1
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
-		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
 
 		### Transport ###
@@ -671,10 +670,6 @@ RUS_filipp_ivanov = {
 	set_nationality = XXA
 }
 RUS_gordey_levchenko = {
-	set_character_flag = RUS_socialist
-	set_nationality = XXA
-}
-RUS_georgy_zhukov = {
 	set_character_flag = RUS_socialist
 	set_nationality = XXA
 }
