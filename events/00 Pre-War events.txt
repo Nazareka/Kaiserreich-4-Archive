@@ -2109,7 +2109,7 @@ news_event = { #Shelling of Elfringen
 	}
 
 	option = {
-		name = prewar.100.c
+		name = prewar.101.c
 		trigger = {
 			NOT = { is_ally_with = INT }
 			NOT = { is_ally_with = GER }
