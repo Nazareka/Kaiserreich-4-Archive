@@ -1454,17 +1454,15 @@ country_event = { #Commune of France offers cease-fire
 
 	is_triggered_only = yes
 
-	option = { #cease-fire
-		log = "[GetLogInfo]: event prewar.48 option prewar.48.a"
-		name = prewar.48.a
-		add_political_power = 20
-		effect_tooltip = {
-			add_named_threat = {
-				threat = 2
-				name = AL_uneasy_ceasefire
-			}
-		}
-	}
+       option = { #cease-fire
+               log = "[GetLogInfo]: event prewar.48 option prewar.48.a"
+               name = prewar.48.a
+               add_political_power = 20
+               add_named_threat = {
+                       threat = 2
+                       name = AL_uneasy_ceasefire
+               }
+       }
 }
 
 country_event = { #Germany demands compensation
@@ -1527,17 +1525,15 @@ country_event = { #German Empire offers cease-fire
 
 	is_triggered_only = yes
 
-	option = { #cease-fire
-		log = "[GetLogInfo]: event prewar.50 option prewar.48.a"
-		name = prewar.48.a
-		add_political_power = 20
-		effect_tooltip = {
-			add_named_threat = {
-				threat = 2
-				name = AL_uneasy_ceasefire
-			}
-		}
-	}
+       option = { #cease-fire
+               log = "[GetLogInfo]: event prewar.50 option prewar.48.a"
+               name = prewar.48.a
+               add_political_power = 20
+               add_named_threat = {
+                       threat = 2
+                       name = AL_uneasy_ceasefire
+               }
+       }
 }
 
 country_event = { #German compensation for Avricourt incident
